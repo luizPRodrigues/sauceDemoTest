@@ -27,6 +27,11 @@ Extraia o arquivo na pasta chromedriver:
 
 * /teste-qa/src/main/java/com/saucedemo/teste_qa/core/chromedriver
 
+No caso de execução no Mac OSX alterar o caminho que aponta para o executável contido na classe driverFactory da seguinte forma:
+
+* "/src/main/java/com/saucedemo/teste_qa/core/chromedriver/chromedriver"
+
+
 Execução:
 
 * Na classe ComprarProdutoRunner clicar com o botão direito + Run as + JUnit + Test
