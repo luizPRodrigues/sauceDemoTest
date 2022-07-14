@@ -3,7 +3,7 @@ package com.saucedemo.teste_qa.pageobject;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import utils.WebActions;
+import com.saucedemo.teste_qa.core.utils.WebActions;
 
 public class ComprarProdutoSteps extends WebActions {
 	private static ComprarProdutoLogic comprarProdutoLogic;

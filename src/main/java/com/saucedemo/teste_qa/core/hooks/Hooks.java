@@ -5,7 +5,8 @@ import com.saucedemo.teste_qa.core.driver.DriverFactory;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import utils.WebActions;
+
+import com.saucedemo.teste_qa.core.utils.WebActions;
 
 public class Hooks extends DriverFactory {
 	@Before

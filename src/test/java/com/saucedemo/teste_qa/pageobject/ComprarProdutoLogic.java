@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import utils.WebActions;
+import com.saucedemo.teste_qa.core.utils.WebActions;
 
 public class ComprarProdutoLogic extends WebActions {
 

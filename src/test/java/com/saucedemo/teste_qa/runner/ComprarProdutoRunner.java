@@ -16,5 +16,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
                 dryRun = false
                 )
 public class ComprarProdutoRunner {
+	
+	}
 
-}
+

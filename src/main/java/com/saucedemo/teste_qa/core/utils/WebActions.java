@@ -1,4 +1,4 @@
-package utils;
+package com.saucedemo.teste_qa.core.utils;
 
 import java.io.File;
 
