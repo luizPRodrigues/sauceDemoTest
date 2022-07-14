@@ -34,6 +34,7 @@ public class ComprarProdutoLogic extends WebActions {
 	public void ordenarProdutos(String ordem) {
 		esperarAteElementoEstarClicavel(comprarProdutoPage.getBtnOrder());
 		selecionarComboPorTextoVisivel(comprarProdutoPage.getBtnOrder(), ordem);
+		espera(70);
 
 	}
 

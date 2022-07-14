@@ -11,7 +11,7 @@ public class DriverFactory {
 
 	public static WebDriver createChrome() {
 		if (driver == null) {
-			String pathDriverChrome = System.getProperty("user.dir") + "/src/main/java/com/saucedemo/teste_qa/core/chromedriver/chromedriver";
+			String pathDriverChrome = System.getProperty("user.dir") + "/src/main/java/com/saucedemo/teste_qa/core/chromedriver/chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver", pathDriverChrome);
 			driver = new ChromeDriver();
 			wait = new WebDriverWait(DriverFactory.createChrome(), 22);
